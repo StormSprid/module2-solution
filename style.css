@@ -1,0 +1,130 @@
+.container {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100vh;
+
+  background-color: #f0f0f0;
+
+}
+
+
+.header {
+
+ 
+
+  color: black;
+
+  padding: 1em 0;
+
+  text-align: center;
+
+}
+
+
+.content {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  width: 80%;
+
+  max-width: 1200px;
+
+  padding: 2em;
+
+  margin: 0 auto;
+
+}
+
+
+.item {
+
+  background-color: gray;
+
+  
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+  margin: 1em;
+
+  padding: 1em;
+
+  flex: 1 0 200px;
+
+  text-align: center;
+
+  min-width: 200px;
+
+border: 2px solid black;
+position: relative;
+
+}
+
+
+
+.item h2 {
+  position: absolute;
+  margin-bottom: 0.5em;
+border: 2px solid black;
+top: 0;
+right: 0;
+margin: 0;
+
+
+}
+
+
+@media (max-width: 768px) {
+
+  .content {
+
+    flex-direction: column;
+
+  }
+
+
+  .item {
+
+    flex: 1 0 auto;
+
+    width: 90%;
+
+    margin: 1em auto;
+
+   
+
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  .item {
+
+    width: 100%;
+
+  }
+
+}
+
+.Chicken{
+  background-color: pink;
+}
+
+.Beef{
+background-color: red;
+}
+.Fish{
+  background-color: yellow;
+}
